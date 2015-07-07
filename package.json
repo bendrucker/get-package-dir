@@ -1,0 +1,38 @@
+{
+  "name": "get-package-dir",
+  "main": "index.js",
+  "version": "0.0.0",
+  "description": "Get or create a npm package directory with installed dependencies",
+  "license": "MIT",
+  "repository": "bendrucker/get-package-dir",
+  "author": {
+    "name": "Ben Drucker",
+    "email": "bvdrucker@gmail.com",
+    "url": "bendrucker.me"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "keywords": [
+    "npm",
+    "package",
+    "directory",
+    "install"
+  ],
+  "devDependencies": {
+    "get-package": "~1.0.1",
+    "standard": "^4.0.0",
+    "tape": "^4.0.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "ap": "~0.2.0",
+    "dezalgo": "~1.0.3",
+    "is-package": "~1.0.0",
+    "spawn-npm-install": "~1.1.0",
+    "tempfile": "~1.1.1",
+    "xtend": "~4.0.0"
+  }
+}
