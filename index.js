@@ -31,7 +31,7 @@ module.exports = function getPackageDir (name, options, callback) {
     var id = name + '@' + options.version
     install(id, {cwd: tmpDir}, function (err) {
       if (err) return callback(err)
-      callback(null, path.resolve(tmpDir, 'node_modules/xtend'))
+      callback(null, path.resolve(tmpDir, 'node_modules', name))
     })
   })
 }
