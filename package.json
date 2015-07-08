@@ -1,7 +1,7 @@
 {
   "name": "get-package-dir",
   "main": "index.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Get or create a npm package directory with installed dependencies",
   "license": "MIT",
   "repository": "bendrucker/get-package-dir",
