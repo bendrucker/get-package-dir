@@ -1,4 +1,4 @@
-# get-package-dir [![Build Status](https://travis-ci.org/bendrucker/get-package-dir.svg?branch=master)](https://travis-ci.org/bendrucker/get-package-dir)
+# get-package-dir [![Build Status](https://travis-ci.org/bendrucker/get-package-dir.svg?branch=master)](https://travis-ci.org/bendrucker/get-package-dir) [![Greenkeeper badge](https://badges.greenkeeper.io/bendrucker/get-package-dir.svg)](https://greenkeeper.io/)
 
 > Get or create a npm package directory with installed dependencies
 
